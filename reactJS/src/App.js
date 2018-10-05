@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     const { isAuthenticated } = this.props.auth;
-
+    // eslint-disable-next-line
     return (
       <div>
         <Navbar fluid>
